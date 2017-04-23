@@ -1,4 +1,10 @@
-# Usage
+# node-offline-localhost
+
+## Description
+
+A small package that enables use of the "localhost" host name on Node.js even when offline. This functionality is currently not available on some Node.js platforms as detailed below. This package provides an easy-to-use work-around.
+
+## Usage
 
 Include one of the following code snippets at the beginning of your application startup portion:
 ```javascript
@@ -17,7 +23,7 @@ if (process.env.NODE_ENV === 'development') {
 }
 ```
 
-# Rationale
+## Rationale
 
 Currently, use of the `localhost` host name on Node.js is unreliable; when offline, `localhost` will not always resolve to `127.0.0.1` or `::1`, for example, on various versions of Windows.
 
