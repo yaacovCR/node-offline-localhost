@@ -1,0 +1,23 @@
+{
+  "name": "node-offline-localhost",
+  "version": "1.0.0",
+  "description": "Enable the \"localhost\" host name on Node.js even when offline.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaacovCR/node-offline-localhost.git"
+  },
+  "keywords": [
+    "node",
+    "offline",
+    "localhost"
+  ],
+  "author": "Yaacov Rydzinski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yaacovCR/node-offline-localhost/issues"
+  },
+  "homepage": "https://github.com/yaacovCR/node-offline-localhost#readme"
+}
