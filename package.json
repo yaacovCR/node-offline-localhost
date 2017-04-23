@@ -1,6 +1,6 @@
 {
   "name": "node-offline-localhost",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "Enable the \"localhost\" host name on Node.js even when offline.",
   "main": "index.js",
   "scripts": {
